@@ -78,3 +78,11 @@ nav li a {
 nav li a.join {
   color: #f7623c;
 }
+
+main {
+  max-width: 100%;
+  width: 1200px;
+  margin: 80px auto;
+  padding: 0 40px;
+  box-sizing: border-box;
+}
