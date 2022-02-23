@@ -18,7 +18,6 @@ header {
   top: 0;
   left: 0;
 }
-
 header h1 {
   color: white;
   border: 8px solid white;
@@ -30,11 +29,9 @@ header h1 {
 .banner {
   position: relative;
 }
-
 .banner img {
   max-width: 100%;
 }
-
 .banner .welcome {
   background-color: #feb614;
   color: #fff;
@@ -43,11 +40,9 @@ header h1 {
   left: 0;
   top: 30%;
 }
-
 .banner h2 {
   font-size: 74px;
 }
-
 .banner h2 span {
   font-size: 1.3em;
 }
@@ -58,7 +53,6 @@ nav {
   position: sticky;
   top: 104px;
 }
-
 nav ul {
   white-space: nowrap;
   max-width: 1200px;
@@ -137,17 +131,35 @@ footer {
 nav li a:hover {
   text-decoration: underline;
 }
-
 .images li:hover {
   position: relative;
   bottom: 4px;
 }
-
 form input:focus {
   border: 4px dashed #4b4b4b;
   outline: none;
 }
-
 form input:valid {
   border: 4px solid #71d300;
+}
+
+/* Pseudo Elements */
+
+article p::first-line {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+section.join p::first-letter {
+  font-size: 1.5em;
+}
+
+p::selection {
+  background-color: #f7623c;
+  color: white;
+}
+
+article h2::selection {
+  background-color: #f7623c;
+  color: white;
 }
